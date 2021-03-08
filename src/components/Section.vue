@@ -36,7 +36,7 @@
               {{ link.text }}
             </span>
             <span class="icon is-small">
-              <i class="fas fa-external-link-square-alt"></i>
+              <img src="@/assets/icons/external-link-square-alt-solid.svg" />
             </span>
           </a>
         </div>
@@ -56,8 +56,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/scss/_colors.scss';
-@import '@/scss/_fonts.scss';
+@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_fonts.scss';
 
 .my-section {
   background-color: $color-gray-900;
@@ -112,6 +112,11 @@ export default {
           .icon {
             margin-left: 4px !important;
             margin-right: -3px !important;
+
+            img {
+              height: 12px;
+              width: 12px;
+            }
           }
         }
       }
