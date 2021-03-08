@@ -68,7 +68,7 @@ export default {
             tags: ['Vue.js', 'Vuetify', 'Firebase'],
             class: 'warning',
             body:
-              'A Graduate Clinician portfolio for Jesse Reichenbaum. The website includes an about page and multiple other pages with supporting documentation, which covers work done while in graduate school.',
+              'A Graduate Clinician portfolio for Jesse Reichenbaum. The website includes a short bio and pages with supporting documentation, which covers work done while in graduate school.',
             footer: {
               isFooter: true,
               links: [
@@ -85,7 +85,7 @@ export default {
             tags: ['Vue.js', 'Bootstrap', 'Firebase'],
             class: 'primary',
             body:
-              'A photography portfolio for Marco Sanatana, which serves as a gallery of sections based on the subject of the grouped photos.',
+              'A photography portfolio for Marco Santana, which serves as a sectioned gallery based on the subject of the photos.',
             footer: {
               isFooter: true,
               links: [
@@ -107,7 +107,7 @@ export default {
             tags: ['ACM', 'UADM'],
             class: 'danger',
             body:
-              'While at The University of Alabama, I was a member of the Association for Computing Machinery (ACM) for two years and then led the development team my third year. I also was a member of The University of Alabama Dance Maraton (UADM), and in my third year, I was the Director of Entertainment and productions.',
+              'While at The University of Alabama, I was a member of the Association for Computing Machinery (ACM) for two years and then led the development team my third year. I also was a member of The University of Alabama Dance Marathon (UADM), and, in my third year, I was the Director of Entertainment and productions.',
             footer: {
               isFooter: true,
               links: [
@@ -128,7 +128,7 @@ export default {
             tags: ['C', 'Java', 'Scheme', 'SQL'],
             class: 'link',
             body:
-              'All major programming assignments in college. Projects include my own programming language, functional programming assignments written in Scheme, data structures written in C, programs for opertaing systems written in C, and a project for relational databases.',
+              'All major programming assignments completed in college. Projects include my own programming language, functional programming assignments written in Scheme, data structures written in C, programs for operating systems written in C, and a project for relational databases.',
             footer: {
               isFooter: true,
               links: [
@@ -147,6 +147,10 @@ export default {
 </script>
 
 <style lang="scss">
+.main {
+  padding-bottom: 48px;
+}
+
 @media (min-width: 2560px) {
   .main {
     display: flex;
