@@ -1,0 +1,60 @@
+@import './colors';
+@import './fonts';
+
+/* [START] Global Styles */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-mono !important;
+  font-weight: 600;
+}
+
+.button {
+  font-family: $font-mono !important;
+  font-weight: $font-mono-weight !important;
+  border-radius: 4px !important;
+  padding: 6px 12px !important;
+  color: $color-black !important;
+
+  &.is-ghost {
+    color: $color-white !important;
+  }
+}
+
+.title {
+  color: $color-gray-100 !important;
+}
+/* [END] Global Styles */
+
+/* [START] Bulma Customizations */
+// Fonts
+$family-primary: $font-mono;
+$family-secondary: $font-sans;
+$body-family: $family-secondary;
+
+// Colors
+$body-background-color: $color-black;
+$body-color: $color-white;
+
+$blue: $color-blue;
+$green: $color-green;
+$purple: $color-purple;
+$red: $color-red;
+$turquoise: $color-turquoise;
+$yellow: $color-yellow;
+
+$info: $purple;
+$link: $blue;
+$dark: $color-gray-800;
+/* [END] Bulma Customizations */
+
+// Bulma Import
+@import '~bulma';
