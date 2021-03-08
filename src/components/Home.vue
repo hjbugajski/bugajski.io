@@ -61,7 +61,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/scss/_colors.scss';
+@import '@/assets/scss/_colors.scss';
 
 .home {
   .navbar {
