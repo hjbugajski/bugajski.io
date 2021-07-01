@@ -36,7 +36,7 @@
               {{ link.text }}
             </span>
             <span class="icon is-small">
-              <img src="@/assets/icons/external-link-square-alt-solid.svg" />
+              <img src="@/assets/icons/external-link-square-alt-solid.svg" alt="External Link Icon" />
             </span>
           </a>
         </div>
