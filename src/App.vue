@@ -23,7 +23,7 @@ export default {
         title: 'Experience',
         items: [
           {
-            title: '// Application Developer @ IBM iX',
+            title: '// Application Developer @ IBM',
             subtitle: '// April 2020 - Present',
             tags: ['Angular', 'Vue.js', 'UI/UX', 'Python'],
             class: 'info',
@@ -34,8 +34,8 @@ export default {
               isFooter: true,
               links: [
                 {
-                  text: 'IBM iX',
-                  link: 'https://www.ibm.com/services/ibmix'
+                  text: 'IBM',
+                  link: 'https://www.ibm.com/'
                 }
               ]
             }

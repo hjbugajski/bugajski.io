@@ -41,7 +41,7 @@ export default {
   name: 'Home',
   data: () => ({
     title: 'Henry Bugajski',
-    subtitle: '// Application Developer @ IBM iX',
+    subtitle: '// Application Developer @ IBM',
     links: [
       {
         title: 'GitHub',
